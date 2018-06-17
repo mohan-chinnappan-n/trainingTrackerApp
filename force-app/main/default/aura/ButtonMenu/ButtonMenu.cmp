@@ -1,0 +1,73 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" >
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    
+    <aura:attribute name="menuItems" type="String[]" 
+                    default = "['5 Days', '10 days', '50 days']"
+                    />
+    
+    <aura:attribute name="menuSelection" type="String" default="None" />
+    <aura:attribute name="browser" type="String" default="" />
+    
+    <aura:attribute name="actions" type="String[]" 
+                    default = "['Refresh', 'Update', 'Delete', 'Insert']"
+                    />
+    <aura:attribute name="notifyStatus" type="String" default=""/>
+    <hr/>
+    
+    <lightning:tabset selectedTabId="period">
+        <lightning:tab label="Activities Period" id="period">
+            Select:
+            <lightning:buttonMenu aura:id="menu" onselect="{! c.handleSelect }" alternativeText="Show menu">
+                <aura:iteration items="{!v.menuItems}" var="menuItem" >    
+                    <lightning:menuItem value="{!menuItem}" label="{!menuItem}" />                                                                      
+                </aura:iteration>                                                           
+            </lightning:buttonMenu>
+            <lightning:card footer="(c) 2018 " title="">
+                
+                <p class="slds-p-horizontal_small"> Selected:
+                    <lightning:badge  label="{!v.menuSelection}"/>
+                </p>
+                <hr/>
+                <p class="slds-p-horizontal_small"> {!v.browser}</p>
+                
+            </lightning:card>
+            
+        </lightning:tab>
+        <lightning:tab label="Actions" id="actions">
+            <lightning:buttonGroup>
+                <aura:iteration items="{!v.actions}" var="action">
+                    <lightning:button label="{!action}" />
+                </aura:iteration>
+                
+            </lightning:buttonGroup>
+            
+        </lightning:tab>
+        <lightning:tab label="Pills" id="pills">    
+            
+            <aura:iteration items="{!v.actions}" var="action">
+                <lightning:pill label="{!action}" onremove="{! c.handlePillRemove }">
+                    <aura:set attribute="media">
+                        <lightning:icon iconName="standard:account"  alternativeText="Account"/>
+                    </aura:set>
+                </lightning:pill>
+                
+                
+            </aura:iteration>
+            
+            
+            
+            
+        </lightning:tab>
+        
+        <lightning:tab label="Notify" id="Notify">
+            
+            <lightning:notificationsLibrary aura:id="notifLib"/>
+            <lightning:button name="notice" label="Show Notice" onclick="{!c.handleShowNotice}"/>
+            <p class="slds-p-horizontal_small"> {!v.notifyStatus}</p>
+        </lightning:tab>
+        
+        <lightning:tab label="Contact" id="contact">
+            <lightning:button name="contact" label="Show Contact" onclick="{!c.goToRecord }"/>
+        </lightning:tab>
+    </lightning:tabset>
+</aura:component>

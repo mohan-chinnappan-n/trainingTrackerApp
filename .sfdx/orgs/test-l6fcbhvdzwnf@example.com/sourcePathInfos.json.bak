@@ -1,0 +1,444 @@
+[
+    [
+        "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app",
+        {
+            "sourcePath": "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1529156885167,
+            "changeTime": 1529156885167,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main",
+        {
+            "sourcePath": "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1529156885168,
+            "changeTime": 1529156885168,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default",
+        {
+            "sourcePath": "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default",
+            "isDirectory": true,
+            "size": 192,
+            "modifiedTime": 1529174436134,
+            "changeTime": 1529174436134,
+            "contentHash": "b64088874351ff11076bb2ce4724dddbc011a32a",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/aura",
+        {
+            "sourcePath": "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/aura",
+            "isDirectory": true,
+            "size": 160,
+            "modifiedTime": 1529272997876,
+            "changeTime": 1529272997876,
+            "contentHash": "fb7e422d78495f3f4260e17b1b15116d997ff6f2",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/aura/Greeter",
+        {
+            "sourcePath": "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/aura/Greeter",
+            "isDirectory": true,
+            "size": 352,
+            "modifiedTime": 1529158574976,
+            "changeTime": 1529158574976,
+            "contentHash": "1ab1812f26f4721f6fd505489ff1715f62a712e9",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/aura/Greeter/Greeter.auradoc",
+        {
+            "sourcePath": "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/aura/Greeter/Greeter.auradoc",
+            "isDirectory": false,
+            "size": 209,
+            "modifiedTime": 1529158574976,
+            "changeTime": 1529158574976,
+            "contentHash": "fd7f560d82324d6a8255c8c6ebf60698f5f93f1e",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/aura/Greeter/Greeter.cmp",
+        {
+            "sourcePath": "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/aura/Greeter/Greeter.cmp",
+            "isDirectory": false,
+            "size": 62,
+            "modifiedTime": 1529158660520,
+            "changeTime": 1529158660520,
+            "contentHash": "c7c726e480d9c4e41fdf4710d863d9c811a1490f",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/aura/Greeter/Greeter.cmp-meta.xml",
+        {
+            "sourcePath": "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/aura/Greeter/Greeter.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 239,
+            "modifiedTime": 1529158574974,
+            "changeTime": 1529158574974,
+            "contentHash": "e379cef4a3888b333b3e85b4b571a83f65b73c92",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/aura/Greeter/Greeter.css",
+        {
+            "sourcePath": "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/aura/Greeter/Greeter.css",
+            "isDirectory": false,
+            "size": 10,
+            "modifiedTime": 1529158574975,
+            "changeTime": 1529158574975,
+            "contentHash": "44063bf628f237edaa1f3f358714dd40ac321703",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/aura/Greeter/Greeter.design",
+        {
+            "sourcePath": "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/aura/Greeter/Greeter.design",
+            "isDirectory": false,
+            "size": 40,
+            "modifiedTime": 1529158574976,
+            "changeTime": 1529158574976,
+            "contentHash": "c5618bc7228e29c74b07b78fd040e05ae8a541ec",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/aura/Greeter/Greeter.svg",
+        {
+            "sourcePath": "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/aura/Greeter/Greeter.svg",
+            "isDirectory": false,
+            "size": 661,
+            "modifiedTime": 1529158574975,
+            "changeTime": 1529158574975,
+            "contentHash": "721eeffe17135535c3834b77f1e1968fe6360ed4",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/aura/Greeter/GreeterController.js",
+        {
+            "sourcePath": "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/aura/Greeter/GreeterController.js",
+            "isDirectory": false,
+            "size": 65,
+            "modifiedTime": 1529158574974,
+            "changeTime": 1529158574974,
+            "contentHash": "194250e0c86b1981f8d4e7246be6b32954c6deaf",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/aura/Greeter/GreeterHelper.js",
+        {
+            "sourcePath": "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/aura/Greeter/GreeterHelper.js",
+            "isDirectory": false,
+            "size": 45,
+            "modifiedTime": 1529158574974,
+            "changeTime": 1529158574974,
+            "contentHash": "fa35ebecd73c127729bf311a95b613f711a6f10b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/aura/Greeter/GreeterRenderer.js",
+        {
+            "sourcePath": "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/aura/Greeter/GreeterRenderer.js",
+            "isDirectory": false,
+            "size": 50,
+            "modifiedTime": 1529158574975,
+            "changeTime": 1529158574975,
+            "contentHash": "8b79b016f08440c9b2f7d706a6d21229c854540b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mchinnappan/lightning/apps/TrainingTracker",
+        {
+            "sourcePath": "/Users/mchinnappan/lightning/apps/TrainingTracker",
+            "isDirectory": true,
+            "size": 288,
+            "modifiedTime": 1529158641547,
+            "changeTime": 1529158641547,
+            "contentHash": "482aba1731d0a586e52ba05892f68b26d69ba4fe",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/applications",
+        {
+            "sourcePath": "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/applications",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1529174073188,
+            "changeTime": 1529174073188,
+            "contentHash": "12a576ced6a571aa34b093bbad211d4b72d66814",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/applications/TrainingTrackApp.app-meta.xml",
+        {
+            "sourcePath": "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/applications/TrainingTrackApp.app-meta.xml",
+            "isDirectory": false,
+            "size": 557,
+            "modifiedTime": 1529174155599,
+            "changeTime": 1529174155599,
+            "contentHash": "b0a79d5fb73cb1fd7513e6b53f629ff539602831",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/aura/TrainingTrackerApp/TrainingTrackerApp.app-meta.xml",
+        {
+            "sourcePath": "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/aura/TrainingTrackerApp/TrainingTrackerApp.app-meta.xml",
+            "isDirectory": false,
+            "size": 228,
+            "modifiedTime": 1529174436125,
+            "changeTime": 1529174436125,
+            "contentHash": "0e56fac143bebb2d3f47b76d45c3a61ff95ee18e",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/aura/TrainingTrackerApp/TrainingTrackerApp.app",
+        {
+            "state": "u",
+            "sourcePath": "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/aura/TrainingTrackerApp/TrainingTrackerApp.app",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 99,
+            "modifiedTime": 1529273484778,
+            "changeTime": 1529273484778,
+            "contentHash": "9a3839d328730e8042167b5e030b02837294ec9e"
+        }
+    ],
+    [
+        "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/objects/Contact/fields/Department__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/objects/Contact/fields/Department__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 1478,
+            "modifiedTime": 1529174436131,
+            "changeTime": 1529174436131,
+            "contentHash": "fee20e240b1a7e60e54bebcca45c7b57cfe73eda",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/layouts/Contact-Contact Layout.layout-meta.xml",
+        {
+            "sourcePath": "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/layouts/Contact-Contact Layout.layout-meta.xml",
+            "isDirectory": false,
+            "size": 9613,
+            "modifiedTime": 1529174436135,
+            "changeTime": 1529174436135,
+            "contentHash": "3e3ff49bcedc5774667879633c686eed32e32593",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/layouts/Contact-Contact (Support) Layout.layout-meta.xml",
+        {
+            "sourcePath": "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/layouts/Contact-Contact (Support) Layout.layout-meta.xml",
+            "isDirectory": false,
+            "size": 9322,
+            "modifiedTime": 1529174436139,
+            "changeTime": 1529174436139,
+            "contentHash": "265ad38a9b7ded81317522f639965ce81e0cf47b",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/layouts/Contact-Contact (Sales) Layout.layout-meta.xml",
+        {
+            "sourcePath": "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/layouts/Contact-Contact (Sales) Layout.layout-meta.xml",
+            "isDirectory": false,
+            "size": 9613,
+            "modifiedTime": 1529174436144,
+            "changeTime": 1529174436144,
+            "contentHash": "026a29789b413e5ddb7a0f8ac4c7d633878754e7",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/layouts/Contact-Contact (Marketing) Layout.layout-meta.xml",
+        {
+            "sourcePath": "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/layouts/Contact-Contact (Marketing) Layout.layout-meta.xml",
+            "isDirectory": false,
+            "size": 9637,
+            "modifiedTime": 1529174436147,
+            "changeTime": 1529174436147,
+            "contentHash": "b1215111780a20546119f91488e0def557cb0e57",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/aura/TrainingTrackerApp",
+        {
+            "sourcePath": "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/aura/TrainingTrackerApp",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1529174436126,
+            "changeTime": 1529174436126,
+            "contentHash": "e32dde58a7249d3d52f6f13f17c2f0d6269d81d7",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/objects/Contact/fields",
+        {
+            "sourcePath": "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/objects/Contact/fields",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1529174436131,
+            "changeTime": 1529174436131,
+            "contentHash": "09359498efc2f4018e1c2edac76e1f2a10dfa88c",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/objects/Contact",
+        {
+            "sourcePath": "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/objects/Contact",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1529174436130,
+            "changeTime": 1529174436130,
+            "contentHash": "70f132fe13e692866a539996a6b9a05b46076a07",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/objects",
+        {
+            "sourcePath": "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/objects",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1529174436130,
+            "changeTime": 1529174436130,
+            "contentHash": "b37456c4530be810dc040f50da72eda09addfb0a",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/layouts",
+        {
+            "sourcePath": "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/layouts",
+            "isDirectory": true,
+            "size": 192,
+            "modifiedTime": 1529174436147,
+            "changeTime": 1529174436147,
+            "contentHash": "8d9ee4bbab1c076fc98d71d4ef5bf18119daddce",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/aura/ButtonMenu",
+        {
+            "sourcePath": "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/aura/ButtonMenu",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1529273128567,
+            "changeTime": 1529273128567,
+            "contentHash": "c45759e2c08159803c209e0378930e0bd7f24a7b",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/aura/ButtonMenu/ButtonMenu.cmp",
+        {
+            "sourcePath": "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/aura/ButtonMenu/ButtonMenu.cmp",
+            "isDirectory": false,
+            "size": 3133,
+            "modifiedTime": 1529273117368,
+            "changeTime": 1529273117368,
+            "contentHash": "6546093a7ab8a548a3994a7baa16f2f44345335b",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/aura/ButtonMenu/ButtonMenuController.js",
+        {
+            "sourcePath": "/Users/mchinnappan/lightning/apps/TrainingTracker/force-app/main/default/aura/ButtonMenu/ButtonMenuController.js",
+            "isDirectory": false,
+            "size": 1520,
+            "modifiedTime": 1529273172000,
+            "changeTime": 1529273172103,
+            "contentHash": "224e0498d5c16e160afc132dc565d6cc094860a3",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ]
+]
