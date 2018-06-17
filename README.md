@@ -1,14 +1,9 @@
-# SFDX  App
+#  Training Tracker Application
 
-## Dev, Build and Test
+## Goals
 
+- Show the SFDX packaging concepts
+- Show usage info for most of the lightning components
 
-## Resources
-
-
-## Description of Files and Directories
-
-
-## Issues
 
 
