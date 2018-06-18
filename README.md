@@ -17,7 +17,6 @@ $ sfdx force:auth:web:login
 Successfully authorized mohan.chinnappan.dh201@gmail.com with org ID 00D1H000000NSUhUAO
 You may now close the browser
 
-```
 
 ![Enable Package2 in DevHUb](img/dev-hub-enable-p2-1.png)
 
