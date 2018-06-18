@@ -24,26 +24,83 @@ You may now close the browser
 
 ``` bash
 
-## Create unlocked package2
-$ sfdx force:package2:create -o Unlocked -n "TrainingTracking App 2018.06.18 6:27"
-WARNING: The command "force:package2:create" has been deprecated and will be removed in v43.01.0 or later. Use "force:package:create" instead.
-Successfully created a second-generation package (package2). 0Ho1H0000004CABSA2 0331H00000025buQAA
+## Create unlocked package
+
+$ sfdx force:package:create -h
+Usage: sfdx force:package:create -n <string> -t <string> -r <directory> [-d <string>] [-e] [-v <string>] [--json] [--loglevel <string>] 
+
+create a package
+
+Flags:
+ -d, --description DESCRIPTION                    package description
+ -n, --name NAME                                  (required) package name
+ -e, --nonamespace                                creates the package with no
+                                                  namespace; available only for
+                                                  unlocked packages.
+ -t, --packagetype PACKAGETYPE                    (required) package type
+                                                  (Managed,Unlocked)
+ -r, --path PATH                                  (required) path to directory
+                                                  that contains the contents of
+                                                  the package
+ -v, --targetdevhubusername TARGETDEVHUBUSERNAME  username or alias for the dev
+                                                  hub org; overrides default dev
+                                                  hub org
+ --json                                           format output as json
+ --loglevel LOGLEVEL                              logging level for this command
+                                                  invocation
+                                                  (error*,trace,debug,info,warn,fatal)
+                                                  
+
+First, use this command to create a package. Then create a package version.
+
+Examples:
+   $ sfdx force:package:create -n YourPackageName -t Unlocked
+   $ sfdx force:package:create -n YourPackageName -d "Your Package Descripton" -t Unlocked -r force-app
+
+Run 'sfdx force:package:list' to list all packages in the Dev Hub org.
+
+$ sfdx force:package:create -o Unlocked -n "TrainingTracking App 2018.06.18 6:27"
+Successfully created a second-generation package. 0Ho1H0000004CABSA2 0331H00000025buQAA
 === Ids
 NAME                   VALUE
 ─────────────────────  ──────────────────
-Package2 Id            0Ho1H0000004CABSA2
+Package Id            0Ho1H0000004CABSA2
 Subscriber Package Id  0331H00000025buQAA
 
 
 
-## list the packages
-$ sfdx force:package2:list 
-WARNING: The command "force:package2:list" has been deprecated and will be removed in v43.01.0 or later. Use "force:package:list" instead.
-=== Package2 Packages [1]
-NAMESPACE PREFIX  NAME                                  ID                  SUBSCRIBER PACKAGE2 ID  DESCRIPTION  OPTIONS
-────────────────  ────────────────────────────────────  ──────────────────  ──────────────────────  ───────────  ────────
-                  TrainingTracking App 2018.06.18 6:27  0Ho1H0000004CABSA2  0331H00000025buQAA                   Unlocked
+## List the packages
 
+$  sfdx force:package:list -h
+Usage: sfdx force:package:list [-v <string>] [--json] [--loglevel <string>] [--verbose] 
+
+list all packages in the Dev Hub org
+
+Flags:
+ -v, --targetdevhubusername TARGETDEVHUBUSERNAME  username or alias for the dev
+                                                  hub org; overrides default dev
+                                                  hub org
+ --json                                           format output as json
+ --loglevel LOGLEVEL                              logging level for this command
+                                                  invocation
+                                                  (error*,trace,debug,info,warn,fatal)
+                                                  
+ --verbose                                        display extended package
+                                                  detail
+
+You can view the namespace, IDs, and other details for each package.
+
+Examples:
+   $ sfdx force:package:list -v devhub@example.com
+   $ sfdx force:package:list -v devhub@example.com --verbose
+
+
+
+$  sfdx force:package:list
+=== Packages [1]
+NAMESPACE PREFIX  NAME                                  ID                  ALIAS  DESCRIPTION  TYPE
+────────────────  ────────────────────────────────────  ──────────────────  ─────  ───────────  ────────
+                  TrainingTracking App 2018.06.18 6:27  0Ho1H0000004CABSA2                      Unlocked
 
 
 ## Update the version in the sfdx-project.json
@@ -68,12 +125,12 @@ $ cat sfdx-project.json
 }
 
 
-## Create the version
+## Create the package2 version
 $ sfdx force:package2:version:create  -i 0Ho1H0000004CABSA2
 WARNING: The command "force:package2:version:create" has been deprecated and will be removed in v43.01.0 or later. Use "force:package:version:create" instead.
 Package2 version creation request is InProgress. Run "sfdx force:package2:version:create:get -i 08c1H0000004CAGQA2" to query for status.
 
-# create status
+# Check create status
 $ sfdx force:package2:version:create:get -i 08c1H0000004CAGQA2
 WARNING: The command "force:package2:version:create:get" has been deprecated and will be removed in v43.01.0 or later. Use "force:package:version:create:report" instead.
 === Package2 Version Create Request
