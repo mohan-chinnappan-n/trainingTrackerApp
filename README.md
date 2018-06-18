@@ -18,7 +18,11 @@ Successfully authorized mohan.chinnappan.dh201@gmail.com with org ID 00D1H000000
 You may now close the browser
 
 
+```
 ![Enable Package2 in DevHUb](img/dev-hub-enable-p2-1.png)
+
+
+``` bash
 
 ## Create unlocked package2
 $ sfdx force:package2:create -o Unlocked -n "TrainingTracking App 2018.06.18 6:27"
@@ -115,3 +119,8 @@ $ sfdx force:package:install:report -i 0Hf0q000000CbQtCAK -u test-l6fcbhvdzwnf@e
 
 
 ```
+
+### Org shape pilot
+
+[Org Shape Pilot](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference_force_org.htm)
+
