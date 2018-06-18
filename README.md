@@ -246,6 +246,56 @@ Examples:
 [Org Shape Pilot](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference_force_org.htm)
 
 
+### How can I specify dependencies among DCPs?
+
+You express dependencies within the packageDirectories section of sfdx-project.json.
+
+The following are the different types of supported dependencies
+
+
+#### A DCP depending on another package in the same dev hub
+
+```js
+
+"dependencies": [
+
+   {
+
+      "packageId": "0HoB0000000009EKAQ",
+
+      "versionNumber": "2.5.0.LATEST"
+
+    }
+
+]
+```
+
+This expresses that the current DCP depends on another package of version number 2.5 with package id 0HoB0000000009EKAQ. This package can be a managed second-generation package or another DCP. By using the keyword LATEST, you can iterate on the base and dependent package versions simultaneously.
+
+
+#### A DCP depending on another package developed in a different dev hub
+
+There are two main use cases for this:
+
+The DCP that you are depending on, was developed by another company in another hub
+The package that you are depending on is an AppExchange App.
+
+```
+
+"dependencies": [
+
+   {
+
+      "subscriberPackageVersionId" : "04tB0000000J6iZ"
+
+    }
+
+]
+```
+
+This expresses that the current DCP depends on another package with package version id 04tB0000000J6iZ. This is the way to specify dependencies if the package that the current DCP depends on, was developed in a different dev hub.
+
+
 ### SFDX package FAQ
 
 [ Package FAQ](https://sfdc-db-gmail.github.io/)
