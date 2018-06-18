@@ -2,6 +2,10 @@
   "packageDirectories": [
     {
       "path": "force-app",
+      "id":"0Ho1H0000004CABSA2",
+      "versionName": "Training Tracking App",
+      "versionNumber": "1.0.0.NEXT",
+
       "default": true
     }
   ],
