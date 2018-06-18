@@ -102,5 +102,16 @@ Branch
 Created Date                    2018-06-18 06:36
 Installation URL                https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1H000000uy0ZQAQ
 
+#### Install the package to the org
+
+$ sfdx force:package:install --package 04t1H000000uy0ZQAQ
+PackageInstallRequest is currently InProgress. You can continue to query the status using
+sfdx force:package:install:report -i 0Hf0q000000CbQtCAK -u test-l6fcbhvdzwnf@example.com
+
+### Check the install status
+
+$ sfdx force:package:install:report -i 0Hf0q000000CbQtCAK -u test-l6fcbhvdzwnf@example.com
+
+
 
 ```
