@@ -248,4 +248,4 @@ Examples:
 
 ### SFDX package FAQ
 
-[ Package FAQ](faq/package-faq.html) 
+[ Package FAQ](https://sfdc-db-gmail.github.io/)
