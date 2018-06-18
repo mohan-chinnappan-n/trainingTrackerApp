@@ -246,7 +246,7 @@ Examples:
 [Org Shape Pilot](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference_force_org.htm)
 
 
-### How can I specify dependencies among DCPs?
+### How can I specify dependencies among DCPs (Developer-Controlled Packages)?
 
 You express dependencies within the packageDirectories section of sfdx-project.json.
 
