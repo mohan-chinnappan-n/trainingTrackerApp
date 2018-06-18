@@ -245,3 +245,7 @@ Examples:
 
 [Org Shape Pilot](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference_force_org.htm)
 
+
+### SFDX package FAQ
+
+[ Package FAQ](faq/package-faq.html) 
