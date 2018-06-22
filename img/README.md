@@ -41,3 +41,7 @@
  
 
 ```
+
+### References
+
+1. [Considerations for Configuring Components for Flows ](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/components_config_for_flow_screens_tips.htm?search_text=lightning:flow)
