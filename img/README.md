@@ -38,6 +38,7 @@
 
 })
 
+```
 
 ### Demo showing Accounts - Releated Opportunities **Edit** button override with Lightning Component :
 
@@ -47,7 +48,6 @@
 
 
 
-```
 
 ### References
 
