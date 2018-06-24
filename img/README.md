@@ -44,6 +44,8 @@
 
 ```OpptyEditOverride.cmp```
 
+<a href="#editOverride">Demo</a>
+
 ![Override Demo 2](./button-override-related.gif)
 
 
