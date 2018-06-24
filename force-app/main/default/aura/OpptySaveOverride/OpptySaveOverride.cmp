@@ -1,10 +1,11 @@
 <aura:component implements="lightning:actionOverride" access="global"
                 controller="OverrideSaveOpptyCtrl">
-
+    
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
     
     <aura:attribute name="oppty" type="Opportunity" default="{'sobjectType': 'Opportunity',
-                                                       	'Name':'Tesla Solar Panels',           
-                                                       'Description':'For Project X Solar Panels'}" />    
+                                                             'Name':'Tesla Solar Panels',           
+                                                             'Description':'For Project X Solar Panels'}" />    
     <div class="slds-m-around--xx-large">
         <div class="slds-form--stacked">
             <div class="slds-form-element">  
@@ -12,7 +13,7 @@
                     <ui:inputText aura:id="opptyName" label="Name" value="{!v.oppty.Name}" class="slds-input"/>
                     <ui:inputText aura:id="opptyDescription" label="Description" value="{!v.oppty.Description}" 
                                   class="slds-input"/>
-                   
+                    
                 </div>
             </div>
             <div class="slds-m-around--medium">
@@ -20,6 +21,8 @@
             </div>
         </div>
     </div>    
+    <lightning:flow aura:id="myFlow"/>
+    
     
     
 </aura:component>

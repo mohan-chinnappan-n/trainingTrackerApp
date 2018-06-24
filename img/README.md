@@ -38,10 +38,17 @@
 
 })
 
- 
+
+### Demo showing Accounts - Releated Opportunities [Edit] button override with Lightning Component
+
+![Override Demo 2](button-override-related-2.gif)
+
+
 
 ```
 
 ### References
 
 1. [Considerations for Configuring Components for Flows ](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/components_config_for_flow_screens_tips.htm?search_text=lightning:flow)
+
+2. [Embed a Flow in a Custom Lightning Component ](https://developer.salesforce.com/docs/atlas.en-us.salesforce_vpm_guide.meta/salesforce_vpm_guide/vpm_distribute_internal_lc.htm)
