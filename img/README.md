@@ -39,9 +39,11 @@
 })
 
 
-### Demo showing Accounts - Releated Opportunities **Edit** button override with Lightning Component ```OpptyEditOverride.cmp```
+### Demo showing Accounts - Releated Opportunities **Edit** button override with Lightning Component :
 
-![Override Demo 2](button-override-related.gif)
+```OpptyEditOverride.cmp```
+
+![Override Demo 2](./button-override-related.gif)
 
 
 
