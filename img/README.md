@@ -40,7 +40,7 @@
 
 ```
 
-### Demo showing Accounts - Releated Opportunities **Edit** button override with Lightning Component :
+### Demo showing Accounts - Related Opportunities **Edit** button override with Lightning Component :
 
 ```OpptyEditOverride.cmp```
 
