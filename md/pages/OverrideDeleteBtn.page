@@ -1,0 +1,4 @@
+<apex:page standardController="Opportunity">
+ 
+ <h3>Overriding the Delete button</h3>
+</apex:page>

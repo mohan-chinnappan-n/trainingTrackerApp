@@ -1,0 +1,3 @@
+https://ntotten.com/2018/05/11/convert-metadata-to-source-format-while-maintain-git-history/
+https://andyinthecloud.com/2017/08/29/introducing-custom-metadata-services/
+https://blog.texei.com/our-move-to-salesforce-dx-and-developer-controlled-packages-7470c08cbc5c

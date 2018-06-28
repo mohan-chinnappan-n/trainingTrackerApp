@@ -1,0 +1,18 @@
+<aura:component implements="flexipage:availableForAllPageTypes" controller="RestRequestCtrl" access="global" >
+	 <aura:attribute name="path" type="String" required="true" />
+    <aura:attribute name="method" type="String" default="GET"/>
+    
+    <aura:attribute name="responseFormat" type="String" default="application/json"/>
+    <aura:attribute name="bodyContent" type="Object" />
+    <aura:attribute name="bodyContentType" type="String" default="application/json"/>
+     <aura:attribute name="SID" type="String" />
+    
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <lightning:button name="details" label="Rest Call" onclick="{!c.makeRequest}" />
+    <p>AURA : <br/>{!v.SID}</p>
+    <p>OAUTH: <br/>00DL0000005uKf8!AQsAQMyrXCO4D0xnHobqoUv.8oIAH6hbFAFi9YJd5l2UoRgUXQSkQv.Qz4rgfci7CrhrLvV9EWNVeccNX5viDCbPNqTMtaLn
+</p>
+ 
+    
+    <aura:registerEvent name="restResponseEvent" type="c:restResponseEvent"/>
+</aura:component>
